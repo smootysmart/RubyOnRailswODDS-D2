@@ -42,7 +42,7 @@ body {
   }
   
   .article-link:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #218838; /* Darker blue on hover */
   }
   /* Button styles */
 /* Button styles */
@@ -70,4 +70,51 @@ body {
     transform: translateY(-2px); /* Slight lift effect */
   }
   
+/* Styles for the blog stats message */
+.blog-stats {
+    font-size: 1.2rem; /* Slightly larger font */
+    color: #2d2d2d; /* Dark gray for text */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Spacing above */
+    margin-bottom: 20px; /* Spacing below */
+    font-weight: 500; /* Medium weight for modern look */
+  }
+  
+  /* Emphasis style for the article count number */
+  .article-count {
+    color: #28a745; /* Green theme color */
+    font-weight: bold; /* Bold for emphasis */
+    font-size: 1.4rem; /* Slightly larger font for the count */
+    background-color: #e8f5e9; /* Light green background */
+    padding: 4px 8px; /* Padding around the count */
+    border-radius: 4px; /* Rounded corners for a softer look */
+    display: inline-block; /* Align background padding to the content */
+  }
+    
+  /* Styles for the primary heading */
+.heading-primary {
+    font-size: 2.5rem; /* Large font size for prominence */
+    color: #28a745; /* Green color for the text */
+    text-align: center; /* Center the text */
+    margin-bottom: 1.5rem; /* Space below */
+    font-weight: 700; /* Bold font weight */
+    position: relative; /* For accent styling */
+    font-family: 'Arial', sans-serif; /* Use a modern sans-serif font */
+  }
+  
+  /* Accent underline */
+  .heading-primary::after {
+    content: ''; /* Creates an underline effect */
+    display: block;
+    width: 60px; /* Length of the underline */
+    height: 4px; /* Thickness of the underline */
+    background-color: #28a745; /* Green accent color */
+    margin: 0.5rem auto 0; /* Center underline with spacing */
+    border-radius: 2px; /* Rounded ends */
+  }
+  
+  /* Optional shadow effect */
+  .heading-primary {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  }
   

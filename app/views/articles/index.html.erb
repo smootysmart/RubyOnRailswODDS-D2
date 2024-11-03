@@ -1,6 +1,9 @@
-<h1 class="text-3xl font-bold text-center mb-6">Articles</h1>
+<h1 class="heading-primary">Articles</h1>
 
-Our blog has <%= Article.public_count %> articles and counting!
+<p class="blog-stats">
+  Our blog has <span class="article-count"><%= Article.public_count %></span> articles and counting!
+</p>
+
 
 <ul class="article-list">
   <% @articles.each do |article| %>
