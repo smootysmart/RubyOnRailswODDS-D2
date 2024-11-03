@@ -31,7 +31,7 @@ body {
   /* Link styles */
   .article-link {
     text-decoration: none; /* Remove underline from links */
-    color: #007bff; /* Bootstrap primary color */
+    color: #28a745; /* Bootstrap primary color */
     font-weight: bold; /* Bold font for emphasis */
   }
   
@@ -45,6 +45,7 @@ body {
     color: #0056b3; /* Darker blue on hover */
   }
   /* Button styles */
+/* Button styles */
 .btn {
     display: inline-block; /* Allows padding and margins to work correctly */
     padding: 10px 20px; /* Vertical and horizontal padding */
@@ -59,13 +60,14 @@ body {
   
   /* Primary button styles */
   .btn-primary {
-    background-color: #007bff; /* Bootstrap primary color */
+    background-color: #28a745; /* Green color */
     color: #fff; /* White text color */
   }
   
   /* Hover effects for primary button */
   .btn-primary:hover {
-    background-color: #0056b3; /* Darker shade of blue on hover */
+    background-color: #218838; /* Darker shade of green on hover */
     transform: translateY(-2px); /* Slight lift effect */
   }
+  
   
