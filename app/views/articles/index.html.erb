@@ -1,10 +1,14 @@
 <h1 class="text-3xl font-bold text-center mb-6">Articles</h1>
 
+Our blog has <%= Article.public_count %> articles and counting!
+
 <ul class="article-list">
   <% @articles.each do |article| %>
-    <li class="article-item">
-      <%= link_to article.title, article, class: "article-link" %>
-    </li>
+    <% unless article.archived? %>
+        <li class="article-item">
+            <%= link_to article.title, article, class: "article-link" %>
+        </li>
+    <% end %>
   <% end %>
 </ul>
 
