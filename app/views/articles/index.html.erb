@@ -1,9 +1,11 @@
-<h1>Articles</h1>
+<h1 class="text-3xl font-bold text-center mb-6">Articles</h1>
 
-<ul>
+<ul class="article-list">
   <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article %>
+    <li class="article-item">
+      <%= link_to article.title, article, class: "article-link" %>
     </li>
   <% end %>
 </ul>
+
+<%= link_to "New Article", new_article_path() %>
