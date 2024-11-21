@@ -1,5 +1,9 @@
 <h1 class="heading-primary">Articles</h1>
 
+<div class="button-wrapper">
+  <%= link_to "New Article", new_article_path(), class: "btn btn-primary" %>
+</div>
+
 <p class="blog-stats">
   Our blog has <span class="article-count"><%= Article.public_count %></span> articles and counting!
 </p>
@@ -14,5 +18,3 @@
     <% end %>
   <% end %>
 </ul>
-
-<%= link_to "New Article", new_article_path(), class: "btn btn-primary" %>
